@@ -59,6 +59,8 @@ class MultiHeadAttention(nn.Module):
         #break into n_heads
         q, k, v = [self.split_heads(t) for t in (q,k,v)]  # BS * SEQ_LEN * HEAD * EMBED_SIZE_P_HEAD
         q, k, v = [t.transpose(1,2) for t in (q,k,v)]  # BS * HEAD * SEQ_LEN * EMBED_SIZE_P_HEAD
+        
+        #n_heads => attention => merge the heads => mix information
         scores = attention(q, k, v, mask, self.dropout) # BS * HEAD * SEQ_LEN * EMBED_SIZE_P_HEAD
         scores = scores.transpose(1,2).contiguous().view(scores.shape[0], -1, self.out_dim) # BS * SEQ_LEN * EMBED_SIZE_L
         out = self.out(scores)  # BS * SEQ_LEN * EMBED_SIZE
