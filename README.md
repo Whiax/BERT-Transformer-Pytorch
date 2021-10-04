@@ -5,7 +5,7 @@ This project aims to provide an easy-to-run easy-to-understand code for NLP begi
 The project uses a simplified implementation of BERT (unsupervised learning).  
 The model can train in 30 minutes on 1 x RTX2070Super GPU.  
   
-Vizualization of word embeddings:
+Visualization of word embeddings:
 ![alt text](https://miro.medium.com/max/3000/1*tyabpnOIHPhl1ZoQQuSfvw.png)
 
 
