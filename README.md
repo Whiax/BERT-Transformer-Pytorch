@@ -3,6 +3,7 @@ Basic implementation of BERT and Transformer in Pytorch in one python file of ~3
   
 This project aims to provide an easy-to-run easy-to-understand code for NLP beginners and people who want to know how Transformers work.  
 The project uses a simplified implementation of BERT (unsupervised learning).  
+The original implementation of Transformer uses an encoder and a decoder, here we only need the encoder.  
 The model can train in 30 minutes on 1 x RTX2070Super GPU.  
   
 Visualization of word embeddings:
