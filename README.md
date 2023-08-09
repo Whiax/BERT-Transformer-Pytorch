@@ -1,5 +1,5 @@
 # BERT-Transformer-Pytorch
-Basic implementation of BERT and Transformer in Pytorch in one python file of ~300 lines of code (main.py).  
+Basic implementation of BERT and Transformer in Pytorch in one python file of ~300 lines of code (train.py).  
   
 This project aims to provide an easy-to-run easy-to-understand code for NLP beginners and people who want to know how Transformers work.  
 The project uses a simplified implementation of BERT (no labels are required for training).  
