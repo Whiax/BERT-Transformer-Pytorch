@@ -17,4 +17,4 @@ Implementation details: https://hyugen-ai.medium.com/transformers-in-pytorch-fro
 **August 2023 update**: 
 - For experiment purposes, I also implemented the "predict next word" task which is used to train GPT.
 - The code can be found in "main_predictnextword.py"
-- This code is a slight modification of main.py
+- This code is a slight modification of train.py
