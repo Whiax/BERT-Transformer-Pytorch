@@ -10,7 +10,7 @@ Visualization of word embeddings:
 ![alt text](https://miro.medium.com/max/3000/1*tyabpnOIHPhl1ZoQQuSfvw.png)
 
 
-Implementation details: https://hyugen-ai.medium.com/transformers-in-pytorch-from-scratch-for-nlp-beginners-ff3b3d922ef7
+Implementation details: https://hyugen-ai.medium.com/transformers-in-pytorch-from-scratch-for-nlp-beginners-ff3b3d922ef7 
 
 ## "Predict next word" task
 
